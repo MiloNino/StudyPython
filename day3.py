@@ -5,7 +5,6 @@
 # else:
 #     print("your number is an odd number")
 
-
 # weight = 85
 # height =  1.85
 
@@ -47,20 +46,24 @@
 # # Final bill message
 # print(f"The total bill for a {size} pizza is ${bill}")
 
-print("Bienvenido a la juego de Moka, prueba tu concimiento del pero mas loco")
-contador= 0
-pregunta_1=input("primer nivel --> Moka que prefier comer: \n a) pan.\n b)manzana.\n")
-if pregunta_1=="a":
-    contador +=1
-    print(f"\n correcto, si conoces a Moka, vas {contador}/3 preguntas\n")
-    pregunta_2=input("segundo nivel --> Moka que tiene una mirada: \n a) loca.\n b)jusgadora.\n")
-    if pregunta_2=="b":
-        contador +=1
-        print(f"\n correcto, si conoces a Moka, vas {contador}/3 preguntas\n")
-        pregunta_3=input("tercer nivel --> Moka es un perro:\n a) loco. \n b)express.\n C) lindo.\n")
-        if pregunta_3=="b":
-            print(f"\n felicidades, si conoces a Moka, eres el Fan #1 de Moka")
+print("\nBienvenido al juego de Moka, prueba tu conocimiento sobre el perro más loco.")
+contador = 0
+pregunta_1 = input("Primer nivel --> ¿Qué prefiere comer Moka?:\n a) Pan.\n b) Manzana.\n").lower()
+if pregunta_1 == "a":
+    contador += 1
+    print(f"\n¡Correcto! Sí conoces a Moka. Vas {contador}/3 preguntas.\n")
+    
+    pregunta_2 = input("Segundo nivel --> ¿Cómo es la mirada de Moka?:\n a) Loca.\n b) Juzgadora.\n").lower()
+    if pregunta_2 == "b":
+        contador += 1
+        print(f"\n¡Correcto! Sí conoces a Moka. Vas {contador}/3 preguntas.\n")
+        
+        pregunta_3 = input("Tercer nivel --> Moka es un perro:\n a) Loco.\n b) Express.\n c) Lindo.\n").lower()
+        if pregunta_3 == "b":
+            print(f"\n¡Felicidades! Conoces a Moka, eres el Fan #1 de Moka.")
+        else:
+            print("\nLo siento, perdiste. ¡Inténtalo de nuevo!")
     else:
-        print("\n lo seinto perdiste intentalo de nuevo")
+        print("\nLo siento, perdiste. ¡Inténtalo de nuevo!")
 else:
-    print("\n lo seinto perdiste intentalo de nuevo")
+    print("\nLo siento, perdiste. ¡Inténtalo de nuevo!")
