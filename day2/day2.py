@@ -1,21 +1,8 @@
-# print("hello"[4])
 
-
-# print(len(str(12345)))
-
-
-# print(type("dsad"))
-# print(type(123))
-# print(type(123.1))
-# print(type(True))
-
-# print("la palabra tiene "+ str(len(input("cual es el nombre de tu perro \n")))+ " letras")
-
-
-# height = 1.65 
-# weight = 84
-# bmi=weight/height**2
-# print(bmi)
+height = 1.65 
+weight = 84
+bmi=weight/height**2
+print(bmi)
 
 print("\n Hola, Bienvenidos a tu calculadora de cuentas de comida morbida.   /(0.0)/ \n")
 cuenta= int(input("Cuanto te costo esa comida gigante??.   [-_-] \n"))
